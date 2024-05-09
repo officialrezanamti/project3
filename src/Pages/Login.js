@@ -1,6 +1,6 @@
 import MyNav from '../Componenet/Nav/MyNav';
-import './Article.css';
-export default function Article(){
+import './Login.css';
+export default function Login(){
     return(
         <>
             <MyNav />

@@ -1,0 +1,32 @@
+.final{
+    width: 100vw;
+    height: 200px;
+    height: 40vh;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+.classImg{
+    margin: 40px 0 40px  40px;
+}
+.finalText{
+    margin: 20px;
+}
+.courseTextInfo{
+    word-break: break-all;
+    width: 60%;
+}
+.teacher{
+    background: linear-gradient(120deg , rgb(232, 42, 9) , rgb(188, 9, 9));
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 15px;
+}
+.courseTitle{
+    position: relative;
+    bottom: 70px;
+    margin-bottom: 0;
+}

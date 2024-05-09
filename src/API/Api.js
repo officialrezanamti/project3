@@ -3,8 +3,9 @@ export let cardInfo = [
     {
         id: 1,
         image : 'https://next1code.ir/wp-content/uploads/2021/08/couse-cover-500x286.jpg',
-        title : 'Java Script Cource',
-        text : 'if you buy this cource you will learn java script soon'
+        title : 'Java Script Course',
+        text : 'if you buy this Course you will learn java script soon ',
+        teacher : 'Milad Mohammadi'
 
 
     },
@@ -12,8 +13,9 @@ export let cardInfo = [
     {
         id: 2,
         image : 'https://next1code.ir/wp-content/uploads/2022/10/bootstrap-500x286.png',
-        title : 'Bootstrap Cource',
-        text : 'if you buy this cource you will learn Bootstrap soon'
+        title : 'Bootstrap Course',
+        text : 'if you buy this Course you will learn Bootstrap soon',
+        teacher : 'Saba Rezaei'
 
 
     },
@@ -21,8 +23,9 @@ export let cardInfo = [
     {
         id: 3,
         image : 'https://next1code.ir/wp-content/uploads/2022/12/react-cover-500x286.jpg',
-        title : 'React Cource',
-        text : 'if you buy this cource you will learn React soon'
+        title : 'React Course',
+        text : 'if you buy this Course you will learn React soon',
+        teacher : 'Ali Nemati'
 
 
     },
@@ -30,8 +33,9 @@ export let cardInfo = [
     {
         id: 4,
         image : 'https://next1code.ir/wp-content/uploads/2023/11/redux-course-cover-1-500x286.jpg',
-        title : 'Redux Cource',
-        text : 'if you buy this cource you will learn Redux soon'
+        title : 'Redux Course',
+        text : 'if you buy this Course you will learn Redux soon',
+        teacher : 'Soodabe Afshar'
 
 
     }

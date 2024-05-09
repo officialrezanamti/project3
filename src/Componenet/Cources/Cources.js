@@ -3,16 +3,16 @@ import "./Curces.css";
 import { cardInfo } from "../../API/Api";
 import { useState } from "react";
 
-export default function Cources() {
-  const [cources, setCources] = useState(cardInfo);
+export default function Courses() {
+  const [courses, setCourses] = useState(cardInfo);
   return (
     <>
       <div className="main">
-        <h1>Cources</h1>
+        <h1>Courses</h1>
         <div className="col">
-          {cources.map((cource) => (
-            <div className="courseItem" key={cource.id}>
-              <Card {...cource} />
+          {courses.map((course) => (
+            <div className="courseItem" key={course.id}>
+              <Card {...course} />
             </div>
           ))}
         </div>

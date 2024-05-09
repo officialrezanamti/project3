@@ -1,4 +1,4 @@
-import { NavLink } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import "./MyNav.css";
 export default function MyNav() {
   return (
@@ -17,7 +17,7 @@ export default function MyNav() {
           <NavLink to="/article" className="nav">
             Article
           </NavLink>
-          <NavLink to="/enter" className="nav">
+          <NavLink to="/login" className="nav">
             Enter
           </NavLink>
         </div>

@@ -1,0 +1,28 @@
+footer{
+    background-color: rgb(139, 69, 223);
+    width: 100vw;
+    height: 20vh;
+    margin-top: 20px;
+    padding: 0 100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.changebg{
+    animation: changeColor 12s linear infinite;
+ 
+
+     
+}
+
+@keyframes changeColor {
+    0% { color: red; } 
+    15%  {rotate: 20deg;}
+    25% { color: blue; }
+    35%  {rotate: -20deg;}
+    50% { color: red; }
+    75% { color: rgb(234, 255, 0); }
+    100% { color: red; }
+}
+
