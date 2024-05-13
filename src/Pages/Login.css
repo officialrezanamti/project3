@@ -1,0 +1,20 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 40vh;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    background-color: rgb(81, 180, 23);
+}
+input{
+    margin: 0 20px;
+    padding: 10px;
+    border: unset;
+    outline: none;
+    
+}
+input[type = text]{
+    margin-top: 50px;
+}
